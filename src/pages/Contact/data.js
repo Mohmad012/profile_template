@@ -1,0 +1,7 @@
+const data = [
+	{Class:"col-12 col-md-6" , delay:'300' , name:"name" , title:"Name"},
+	{Class:"col-12 col-md-6" , delay:'400' , name:"email" , title:"Email"},
+	{Class:"col-12" , delay:'500' , name:"subject" , title:"Subject"}
+]
+
+export default data

@@ -1,0 +1,47 @@
+[
+    {    
+        "dataUp" :[
+            {
+                "path":"/auctions",
+                "title":"Live Auctions"
+            },
+            {
+                "path":"/discover",
+                "title":"Discover"
+            },
+            {
+                "path":"/itemdetails",
+                "title":"Item Details"
+            }
+        ]
+    },
+    {    
+        "dataDown" : [
+            {
+                "path":"/connectwallet",
+                "title":"Wallet Connec"
+            },
+            {
+                "path":"/createitem",
+                "title":"Create Item"
+            },
+            {
+                "path":"/authors",
+                "title":"Authors"
+            },
+            {
+                "path":"/profile",
+                "title":"Author Profile"
+            },
+            {
+                "path":"/login",
+                "title":"Login"
+            },
+            {
+                "path":"/signup",
+                "title":"Sign Up"
+            }
+        ]
+
+    }
+]
