@@ -2,7 +2,6 @@ import React , { useEffect } from "react";
 import {Helmet} from "react-helmet";
 import { Switch, Route } from "react-router-dom";
 import Aos from 'aos'
-import $ from 'jquery';
 import {
     Activity,
     Auctions,
@@ -33,16 +32,6 @@ const App = () => {
     Aos.init({
       duration: 1000
       })
-  },[])
-
-  useEffect(() => {
-
-      if ($.fn.scrollUp) {
-        $.scrollUp({
-            scrollSpeed: 1500,
-            scrollText: 'Scroll Top'
-        });
-    }
   },[])
 
 
