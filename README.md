@@ -1,2 +1,2 @@
 # profile_template
-in this project i converted project from bootstap to react.js
+in this project i practiced the clean code and reusable components by react.js
