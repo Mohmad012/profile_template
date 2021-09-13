@@ -138,3 +138,41 @@ input:required,
 textarea:required {
     box-shadow: none !important;
 }
+
+.slideCountdown{
+    display: flex;
+    font-family: Courier;
+    font-weight: bold;
+    justify-content: center;
+    grid-gap: 1rem;
+    gap: .3rem;
+    color: #fff;
+}
+
+.slide-block-time{
+    font-size: 30px;
+    min-width: 24%;
+    margin: 0;
+}
+
+.wrap-stage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #290571;
+}
+
+.slide-block-time .wrap-stage > .stage{
+    width: 20px;
+    overflow: hidden;
+    height: 40px;
+    position: relative;
+}
+
+.slide-block-time > .title{
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 5px;
+    text-transform: lowercase;
+}

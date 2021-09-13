@@ -1,8 +1,11 @@
+import { SlideCountdown } from 'react-fancy-countdown';
+
 import authors1 from "../../../assets/img/authors/1.png"
 import {data} from '../../../data/data-containers/data-HighestBid.js'
 // import data from './data.json'
 
 const HighestBid = () => {
+
 
   return (
     <>
@@ -37,7 +40,9 @@ const HighestBid = () => {
           <div className="biding-end">
               <h4 className="mb-15">Biding Ends In :</h4>
               <div className="count-down titled circled text-center">
-                  <div className="simple_timer"></div>
+                <SlideCountdown
+                  weeks={false}
+                  deadline="2030-12-31 14:23:22" />
               </div>
           </div>
 
