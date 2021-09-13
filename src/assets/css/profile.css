@@ -99,6 +99,7 @@
     width: auto;
     max-width: 500px;
     margin: 20px auto;
+    margin-bottom: 100px;
 }
 .portfolio-menu button.active {
     color: #fff;
